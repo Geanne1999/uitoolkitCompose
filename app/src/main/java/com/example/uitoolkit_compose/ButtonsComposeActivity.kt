@@ -28,7 +28,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import java.lang.Thread.sleep
 import java.sql.Time
 
-var topBarTitle:String ="Buttons"
+private var topBarTitle:String ="Buttons"
 
 class ButtonsComposeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

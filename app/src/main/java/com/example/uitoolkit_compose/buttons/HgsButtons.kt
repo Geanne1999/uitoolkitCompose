@@ -222,7 +222,7 @@ object HgsButtons {
                         Box(
                             modifier = Modifier.graphicsLayer { alpha = contentAlpha }
                         ) {
-                            //content()
+                            //content
                         }
                     }
                 }

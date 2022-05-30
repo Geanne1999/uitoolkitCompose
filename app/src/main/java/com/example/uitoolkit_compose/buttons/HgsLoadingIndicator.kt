@@ -30,13 +30,13 @@ fun HgsLoadingIndicator(
             animate(
                 initialValue = IndicatorSize / 2f,
                 targetValue = -IndicatorSize / 2f,
-                animationSpec=repeatable(iterations = 5, animation = tween(durationMillis = AnimationDurationMillis),
-                    repeatMode = RepeatMode.Restart,initialStartOffset = StartOffset(AnimationDelayMillis * index)),
-                /*animationSpec = infiniteRepeatable(
+                /*animationSpec=repeatable(iterations = 5, animation = tween(durationMillis = AnimationDurationMillis),
+                    repeatMode = RepeatMode.Restart,initialStartOffset = StartOffset(AnimationDelayMillis * index)),*/
+                animationSpec = infiniteRepeatable(
                     animation = tween(durationMillis = AnimationDurationMillis),
                     repeatMode = RepeatMode.Reverse,
                     initialStartOffset = StartOffset(AnimationDelayMillis * index),
-                )*/
+                )
             ) { value, _ -> animatedValue = value }
         }
         animatedValue

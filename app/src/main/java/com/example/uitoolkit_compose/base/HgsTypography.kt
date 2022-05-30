@@ -205,6 +205,12 @@ object HgsTypography
         fontSize = 16 .sp,
         letterSpacing = (-0.002).sp
     )
+    val HgsUiToolkitTextAppearanceBodyNavigation = TextStyle(
+        fontFamily = roboto,
+        lineHeight = 20.sp,
+        fontSize = 16 .sp,
+        letterSpacing = (-0.002).sp
+    )
 
     val HgsUiToolkitTextAppearanceBodyMedium = TextStyle(
         color=HgsColors.hgsToolkitTundora,

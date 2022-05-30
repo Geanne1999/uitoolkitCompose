@@ -1,0 +1,42 @@
+buildscript {
+    ext {
+        // Define the 2 versions
+        //compose_compiler_version = '1.1.0'
+        //compose_version = '1.1.1'
+        compose ='1.2.0-alpha08'
+        kotlin_version="1.6.20"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.2.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+allprojects
+        {
+
+            configurations.all
+                    {
+                        resolutionStrategy
+                                {
+                                    eachDependency { details ->
+                                        if ('org.jetbrains.kotlin' == details.requested.group)
+                                        {
+                                            details.useVersion kotlin_version
+                                        }
+                                    }
+                                }
+                    }
+        }

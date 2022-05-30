@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Uitoolkit_Compose" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/hgs_ui_toolkit_blaze_orange</item>
+        <item name="colorPrimaryVariant">@color/hgs_ui_toolkit_neon_carrot</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/hgs_ui_toolkit_congress_blue</item>
+        <item name="colorSecondaryVariant">@color/hgs_ui_toolkit_cerulean</item>
+        <item name="colorOnSecondary">@color/hgs_ui_toolkit_lochmara</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

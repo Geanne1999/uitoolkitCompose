@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="hgs_ui_toolkit_blaze_orange">#F56400</color>
+    <color name="hgs_ui_toolkit_neon_carrot">#FF8F33</color>
+    <color name="hgs_ui_toolkit_neon_carrot10">#1AFF8F33</color>
+    <color name="hgs_ui_toolkit_punch">#DC2E2E</color>
+
+    <!-- Secondary colors -->
+    <color name="hgs_ui_toolkit_congress_blue">#00477E</color>
+    <color name="hgs_ui_toolkit_cerulean">#00AAE1</color>
+    <color name="hgs_ui_toolkit_lochmara">#0085C3</color>
+
+    <!-- White shades colors-->
+    <color name="hgs_ui_toolkit_white">#FFFFFF</color>
+    <color name="hgs_ui_toolkit_white60">#99FFFFFF</color>
+    <color name="hgs_ui_toolkit_mercury">#E6E6E6</color>
+    <color name="hgs_ui_toolkit_tundora">#4A4A4A</color>
+    <color name="hgs_ui_toolkit_silver_chalice">#AFAFAF</color>
+    <color name="hgs_ui_toolkit_dove_grey">#737373</color>
+    <color name="hgs_ui_toolkit_silver">#C4C4C4</color>
+    <color name="hgs_ui_toolkit_grey">#F7F7F7</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

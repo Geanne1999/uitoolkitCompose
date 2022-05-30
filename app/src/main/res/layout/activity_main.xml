@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cbButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="buttons"
+            android:textAlignment="center"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cbNavigations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="navigations"
+            android:textAlignment="center"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cbActions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="actions"
+            android:textAlignment="center"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cbInputs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="inputs"
+            android:textAlignment="center"
+            />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cb_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="network"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/composableListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerGroupie"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />-->
+
+</LinearLayout>
